@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 
-module CLA_tb();
+module RCA_tb();
 parameter N=4;
 reg [N-1:0]A,B;
 reg Cin;
 wire [N-1:0]S;
 wire Cout;
-CLA #(N) uut (.A(A),.B(B),.Cin(Cin),.S(S),.Cout(Cout));
+RCA #(N) uut (.A(A),.B(B),.Cin(Cin),.S(S),.Cout(Cout));
 initial 
 begin
     // small numbers with no input carry

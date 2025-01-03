@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module CLA #(parameter N=4)(
+module RCA #(parameter N=4)(
     input [N-1:0] A,
     input [N-1:0] B,
     input Cin,
